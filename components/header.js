@@ -2,7 +2,7 @@ import Logo from 'components/logo'
 import Nav from 'components/nav'
 const Header = () => (
   <header>
-    <Logo />
+    <Logo boxOn />
     <Nav />
   </header>
 )
