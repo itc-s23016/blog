@@ -1,11 +1,4 @@
 import { getPostBySlug } from 'lib/api'
-<<<<<<< HEAD
-import Container from 'components/container'
-const Schedule = ({ title, publish, content, eyecatch, categories }) => {
-  return (
-    <Container>
-      <h1>{title}</h1>
-=======
 import { extractText } from 'lib/extract-text'
 import Meta from 'components/meta'
 import Container from 'components/container'
@@ -61,7 +54,6 @@ const Schedule = ({
           </TwoColumnSidebar>
         </TwoColumn>
       </article>
->>>>>>> chapter8
     </Container>
   )
 }
@@ -69,22 +61,15 @@ const Schedule = ({
 const getStaticProps = async () => {
   const slug = 'schedule'
   const post = await getPostBySlug(slug)
-<<<<<<< HEAD
-=======
   const description = extractText(post.content)
->>>>>>> chapter8
   return {
     props: {
       title: post.title,
       publish: post.publishDate,
       content: post.content,
       eyecatch: post.eyecatch,
-<<<<<<< HEAD
-      categories: post.categories
-=======
       categories: post.categories,
       description: description
->>>>>>> chapter8
     }
   }
 }
