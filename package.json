@@ -14,9 +14,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "date-fns": "^3.2.0",
-    "html-react-parser": "^5.1.0",
-    "html-to-text": "^9.0.5",
+    "@img/sharp-linux-x64": "^0.33.2",
     "date-fns": "^3.2.0",
     "html-react-parser": "^5.1.1",
     "html-to-text": "^9.0.5",
@@ -25,6 +23,6 @@
     "plaiceholder": "^2.5.0",
     "react": "^18",
     "react-dom": "^18",
-    "sharp": "^0.33.1"
+    "sharp": "^0.33.2"
   }
 }
