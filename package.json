@@ -14,6 +14,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@img/sharp-linux-x64": "^0.33.2",
     "date-fns": "^3.2.0",
     "html-react-parser": "^5.1.0",
     "html-to-text": "^9.0.5",
@@ -21,6 +22,7 @@
     "next": "14.0.4",
     "plaiceholder": "^2.5.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sharp": "^0.33.2"
   }
 }
